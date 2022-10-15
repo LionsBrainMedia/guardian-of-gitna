@@ -9,5 +9,7 @@
     "verified": "10"
   },
   "systemVersion": "4.2.6",
-  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/guardian-of-gitna/master/world.json"
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/guardian-of-gitna/master/world.json",
+  "url": "https://github.com/LionsBrainMedia/guardian-of-gitna",
+  "download": "https://github.com/LionsBrainMedia/guardian-of-gitna/archive/refs/heads/main.zip"
 }
