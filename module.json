@@ -1,0 +1,63 @@
+{
+  "id": "guardian-of-gitna",
+  "title": "The Guardian of Gitna",
+  "description": "1st-level adventure The Guardian of Gitna.",
+  "url": "https://github.com/LionsBrainMedia/guardian-of-gitna",
+  "version": "0.0",
+  "authors": [
+    {"name": "W. Brian Lane"}
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.2.6"
+      }
+    }]
+  },
+  "flags": {
+  "guardian-of-gitna": {
+    "pf2e-homebrew": {
+      "featTraits": {
+        "manaborn": {
+          "label": "Manaborn",
+          "description": "This feat is available to PCs with the manaborn versatile heritage."
+        }
+      }}}},
+  "packs": [{
+      "label": "The Guardian of Gitna - Scenes",
+      "type": "Scene",
+      "name": "guardian-of-gitna-scenes",
+      "path": "./packs/guardian-of-gitna-scenes.db",
+      "system": "pf2e",
+      "package": "guardian-of-gitna",
+      "private": false
+    },
+  {
+      "label": "The Guardian of Gitna - Actors",
+      "type": "Actor",
+      "name": "guardian-of-gitna-actors",
+      "path": "./packs/guardian-of-gitna-actors.db",
+      "system": "pf2e",
+      "package": "guardian-of-gitna",
+      "private": false
+    },
+  {
+      "label": "The Guardian of Gitna - Adventure Toolbox",
+      "type": "Item",
+      "name": "guardian-of-gitna-adventure-toolbox",
+      "path": "./packs/guardian-of-gitna-adventure-toolbox.db",
+      "system": "pf2e",
+      "package": "guardian-of-gitna",
+      "private": false
+    }],
+  "url": "https://github.com/LionsBrainMedia/guardian-of-gitna",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/guardian-of-gitna/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/guardian-of-gitna/archive/refs/heads/main.zip"
+}
