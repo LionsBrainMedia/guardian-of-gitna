@@ -8,6 +8,6 @@
     "minimum": "10",
     "verified": "10"
   },
-  "systemVersion": "4.2.6"
+  "systemVersion": "4.2.6",
   "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/guardian-of-gitna/master/world.json"
 }
