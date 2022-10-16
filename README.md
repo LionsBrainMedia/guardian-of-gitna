@@ -1,6 +1,6 @@
 # guardian-of-gitna
 
-To install this module in Foundry VTT, follow the instructions at https://foundryvtt.wiki/en/basics/Modules
+To install this module in Foundry VTT, follow the instructions at https://foundryvtt.wiki/en/basics/Modules and use the manifest URL https://raw.githubusercontent.com/LionsBrainMedia/guardian-of-gitna/master/module.json
 
 Once installed, create a world for your game and then launch the world. Click on Settings, then Manage Modules. Then check the box for The Guardian of Gitna. This might require you to restart your world.
 
